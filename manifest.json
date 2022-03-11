@@ -1,0 +1,13 @@
+{
+    "name": "replaceExtTuts",
+    "version": "0.0.1",
+    "description": "It is not your buisness chrome",
+    "manifest_version": 3,
+    "background":{
+        "service_worker": "script.js"
+    },
+    "host_permissions": ["<all_urls>"],
+    "options_ui": {
+        "page": "opt.html"
+    }
+}
